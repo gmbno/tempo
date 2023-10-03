@@ -1,0 +1,9 @@
+{
+  "Description": "Tempo plugin for streamdeck",
+  "Name": "Tempo",
+  "Category": "Tempo",
+  "dev.gmbno.tempo.weekProgression": {
+    "Name": "Week progression",
+    "Tooltip": "Display how many hours have been logged during the current week"
+  }
+}

@@ -1,13 +1,14 @@
 /// <reference path="libs/js/action.js" />
 /// <reference path="libs/js/stream-deck.js" />
 
-const myAction = new Action('com.elgato.template.action');
+const myAction = new Action('dev.gmbno.tempo.weekProgression');
 
 /**
  * The first event fired when Stream Deck starts
  */
-$SD.onConnected(({ actionInfo, appInfo, connection, messageType, port, uuid }) => {
-	console.log('Stream Deck connected!');
+$SD.onConnected((props) => {
+	const { actionInfo, appInfo, connection, messageType, port, uuid } = props;
+	console.log('Stream Deck connected!', props);
 });
 
 myAction.onKeyUp(({ action, context, device, event, payload }) => {
