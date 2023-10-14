@@ -1,40 +1,42 @@
 {
-	"SDKVersion": 2,
-	"Author": "Lucas Gambini",
-	"CodePath": "app.html",
-	"Description": "Tempo plugin for streamdeck",
-	"Name": "Tempo",
-	"Icon": "actions/common/assets/logo",
-	"URL": "https://github.com/gmbno/tempo",
-	"Version": "1.0.0",
-	"Software": {
-		"MinimumVersion": "5.0"
-	},
-	"OS": [
-		{
-			"Platform": "mac",
-			"MinimumVersion": "10.11"
-		},
-		{
-			"Platform": "windows",
-			"MinimumVersion": "10"
-		}
-	],
-	"Category": "Tempo",
-	"CategoryIcon": "actions/common/assets/logo",
-	"Actions": [
-		{
-			"Icon": "actions/common/assets/logo",
-			"Name": "Week progression",
-			"Controllers": ["Keypad"],
-			"States": [
-				{
-					"Image": "actions/common/assets/logo"
-				}
-			],
-			"Tooltip": "Display how many hours have been logged during the current week",
-			"UUID": "dev.gmbno.tempo.weekProgression",
-			"PropertyInspectorPath": "actions/weekProgression/index.html"
-		}
-	]
+  "SDKVersion": 2,
+  "Author": "Gmbno",
+  "CodePath": "app.html",
+  "Description": "Tempo plugin for streamdeck",
+  "Name": "Tempo",
+  "Icon": "actions/common/assets/logo",
+  "URL": "https://github.com/gmbno/tempo",
+  "Version": "1.0.0",
+  "Software": {
+    "MinimumVersion": "5.0"
+  },
+  "OS": [
+    {
+      "Platform": "mac",
+      "MinimumVersion": "10.11"
+    },
+    {
+      "Platform": "windows",
+      "MinimumVersion": "10"
+    }
+  ],
+  "Category": "Tempo",
+  "CategoryIcon": "actions/common/assets/logo",
+  "Actions": [
+    {
+      "Icon": "actions/common/assets/logo",
+      "Name": "Week progression",
+      "Controllers": [
+        "Keypad"
+      ],
+      "States": [
+        {
+          "Image": "actions/common/assets/logo"
+        }
+      ],
+      "Tooltip": "Display how many hours have been logged during the current week",
+      "UUID": "dev.gmbno.tempo.weekProgression",
+      "PropertyInspectorPath": "actions/weekProgression/inspector.html"
+    }
+  ]
 }
